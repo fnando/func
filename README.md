@@ -1,5 +1,7 @@
 # Func
 
+[![Build Status](https://travis-ci.org/fnando/func.svg?branch=master)](https://travis-ci.org/fnando/func)
+
 Utility functions for making your life easier.
 
 ## Installation

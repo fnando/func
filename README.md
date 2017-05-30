@@ -27,6 +27,7 @@ You can call utility functions directly from the `Func` model. Alternatively you
 ### Hash
 
 - `Func.hash_fetch(hash, *keys)` is similar to multiple `Hash#fetch` calls, e.g. `hash.fetch(:a).fetch(:b).fetch(:c)` becomes `Func.hash_fetch(hash, :a, :b, :c)`.
+- `Func.hash_except(target, *keys)` returns a new hash without the given keys.
 
 ## Development
 
